@@ -6,4 +6,7 @@ la guida gratuita di **introduzione al web** per
 
 Mi raccomando non sbirciare le soluzioni che si trovano qui prima di aver provato 
 a svolgere gli esercizi in autonomia, [comincia da qui](http://nemboweb.com/corsi/webmaster-tutorial)!
+<<<<<<< HEAD
 
+=======
+>>>>>>> master

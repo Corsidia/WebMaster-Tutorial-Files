@@ -1,0 +1,194 @@
+body {
+  background-color: #eee;
+  font-family: verdana,arial,tahoma,sans-serif;
+  font-size: 14px;
+  margin: 1em 1em 0 1em;
+  /* DECOMMENTA IL CODICE QUI SOTTO PER VEDER ELO SFONDO */
+  /*background-image: url('sfondo.png');*/
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.75em;
+}
+
+h2 {
+  margin-top: 0;
+  color: #1271b1;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: #333;
+}
+
+a {
+  color: #8caec4;
+  font-style: italic;
+}
+
+a:hover {
+  color: #c3d6e4;
+}
+
+p {
+  color: #666;
+  line-height: 1.5em;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ul li {
+  padding: 0.5em 0 ;
+}
+
+table {
+  width:400px;
+  width:100%;
+}
+
+td, th {
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #eee;
+  font-size: 1.2em;
+}
+
+body > div {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto 0 auto;
+  overflow: auto;
+}
+
+body > div > div {
+  background-color: white;
+  padding: 2em 2em 3em 2em;
+  margin-top: 1em;
+  overflow: auto;
+  border-bottom: 5px solid #ddd;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+}
+
+body > div > div:first-child {
+  text-align: center;
+}
+
+body > div > div:first-child em,
+body > div > div:nth-child(2) em {
+  white-space: nowrap;
+}
+
+
+body > div > div:last-child {
+  border-bottom:none;
+  text-align: center;
+  color:#666;
+  font-style: italic;
+  padding-bottom: 2em;
+}
+
+body > div > div:first-child img {
+  border-bottom: 5px solid #1271b1;
+  float: none;
+  width: 50%;
+  max-width: 150px;
+  margin: 0 auto 2em auto;
+  display: block;
+}
+
+a[href*="google"] img,
+a[href*="facebook"] img,
+a[href*="twitter"] img {
+  display: block;
+  float: left;
+  width: 40px;
+  margin: 0.5em 1em 0 0 ;
+  transition: all 0.2s;
+}
+
+a[href*="google"]:hover img,
+a[href*="facebook"]:hover img,
+a[href*="twitter"]:hover img {
+  opacity: 0.5;
+}
+
+body > div > div > div {
+  width:100%;
+  padding: 2em 0 2em 0;
+  overflow: auto;
+}
+
+body > div > div > div h3 {
+  margin-top: 0;
+  color: #1271b1;
+}
+
+body > div > div > div h4 {
+  margin-top: 0.5em;
+  color: #aaa;
+}
+
+body > div > div > div img {
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  width: 60px;
+}
+
+body > div > div > div p {
+  display: block;
+  float: none;
+  width: 100%;
+  clear: both;
+}
+
+@media screen and (min-width: 640px) {
+
+  body > div > div:first-child img {
+    border-bottom: 5px solid #1271b1;
+    float: left;
+    margin: 0 2em 1em 0 ;
+    width: 30%;
+    max-width: 150px;
+  }
+
+  body > div > div:first-child,
+  body > div > div:nth-child(2) {
+    margin-top: 0;
+    min-height: 270px;
+    width:48%;
+    padding-bottom: 2em;
+  }
+
+  body > div > div:first-child {
+    width:58%;
+    float: left;
+    text-align: left;
+  }
+
+  body > div > div:nth-child(2) {
+    width:38%;
+    float: right;
+  }
+
+  body > div > div > div img {
+    width: 150px;
+  }
+
+  body > div > div > div p {
+    float: none;
+    width: auto;
+    clear: none;
+  }
+
+}
